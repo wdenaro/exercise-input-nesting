@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let model of models">
+        Model: {{ model.name }}
+        <app-specs [specs]="model.specs"></app-specs>
+    </li>
+</ul>

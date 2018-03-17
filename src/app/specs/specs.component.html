@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="let spec of specs">
+        Cylinders: {{ spec.cylinders }}
+        <app-mpg [mpg]="spec.mpg"></app-mpg>
+    </li>
+</ul>

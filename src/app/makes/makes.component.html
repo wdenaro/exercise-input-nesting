@@ -1,0 +1,4 @@
+<div *ngFor="let vehicle of vehicles">
+    Make: {{ vehicle.make }}
+    <app-models [models]="vehicle.models"></app-models>
+</div>
